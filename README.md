@@ -1,2 +1,2 @@
 # svelte-course
-Udemy Course on Svekte
+Udemy Course on Svelte
