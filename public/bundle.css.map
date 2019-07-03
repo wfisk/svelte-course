@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../src/App.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n  export let name;\n  export let age;\n\n  function incrementAge(){\n    age++;\n  } \n  function decrementAge(){\n    age--;\n  } \n</script>\n\n<style>\n\th1 {\n\t\tcolor: purple;\n\t}\n</style>\n\n<h1>Hello {name}! Are you {age}?</h1>\n<button on:click={incrementAge}>\n  Increment Age\n</button>\n\n\n<button on:click={decrementAge}>\n    Decrement Age\n  </button>\n  "
+  ],
+  "names": [],
+  "mappings": "AAaC,EAAE,cAAC,CAAC,AACH,KAAK,CAAE,MAAM,AACd,CAAC"
+}
